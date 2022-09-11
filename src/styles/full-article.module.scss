@@ -1,0 +1,121 @@
+.full-article {
+  background-color: white;
+  width: 938px;
+  height: 807px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px auto;
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+.change {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.title {
+  color: #1890FF;
+  font-size: 20px;
+  margin-right: 13px;
+  margin-bottom: 0;
+}
+
+.heart {
+  width: 16px;
+  height: 15px;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mini-description {
+  margin-top: 15px;
+  font-size: 12px;
+  opacity: 50%;
+}
+
+.change-profile {
+  display: flex;
+  margin-right: 15px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  padding-top: 30px;
+}
+
+.delete {
+  width: 78px;
+  height: 30px;
+  padding: 3px 16px 6px 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.edit {
+  width: 65px;
+  height: 30px;
+  padding: 3px 16px 6px 16px;
+  color: #52C41A;
+  border: 1px solid #52C41A;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 20px 40px 0 20px;
+  overflow: hidden;
+}
+
+.paragraph {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.name {
+  font-size: 18px;
+  width: 100%;
+  min-width: 90px;
+  margin-right: 10px;
+}
+
+.date {
+  opacity: 50%;
+  font-size: 12px;
+}
+
+.avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.nameInfo {
+  display: flex;
+  align-items: flex-start;
+  margin: 15px 14px 0 85px;
+}
