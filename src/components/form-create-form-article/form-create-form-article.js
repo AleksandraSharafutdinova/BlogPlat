@@ -19,10 +19,10 @@ const FormCreateFormArticle = ({title, description, body, onHandleSubmit, nameLi
     })
 
 
-    const {fields, append, remove} = useFieldArray({control, name: 'tag'}); // оставляем
+    const {fields, append, remove} = useFieldArray({control, name: 'tag'});
 
-    const addTag = () => { // оставляем
-        append({name: ''}) // прописать добавление тэга
+    const addTag = () => {
+        append({name: ''})
     }
 
     const tagList = fields.map((el, index) => {
